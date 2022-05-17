@@ -1,0 +1,64 @@
+body{
+    padding: 10px;
+}
+
+form{
+    text-align: center;
+}
+
+td, th{
+	text-align:center
+}
+
+div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+button{
+    background: url('trash-bin-icon.png');
+    width: 30px;
+    height: 30px;
+}
+
+/* .setFlexSide{
+    /* display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-areas: "firstCol secondCol"; */
+
+/* } */
+
+
+#idDiv{
+    grid-area: firstCol;
+}
+
+#nameDiv{
+    grid-area: "secondCol";
+    /* margin-left: 20px; */
+}
+
+#colorDiv{
+    grid-area: "firstCol";
+}
+
+#sizeDiv{
+    grid-area: "secondCol";
+    /* margin-left: 48px; */
+}
+
+input, select{
+    padding: 2px;
+}
+
+select{
+    width: 150px;
+}
+
+#imageDiv{
+    position: relative;
+    top: 4px;
+    margin-bottom: 4px;
+    width: 600px;
+}
